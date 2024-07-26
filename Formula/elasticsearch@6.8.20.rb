@@ -2,7 +2,7 @@ class ElasticsearchAT6820 < Formula
   desc "Distributed search & analytics engine"
   homepage "https://www.elastic.co/products/elasticsearch"
   url "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.8.20.tar.gz"
-  sha256 "f0a93f9465fc34c1e18b83fef9c1e179f62452f5aa1e6cfb0ad9b6e6a70be37a"
+  sha256 "476392f234b125c5d63eaf04b0b339ade877c26d795d5b838cb96fbf06f40535"
   license "Apache-2.0"
 
   depends_on "openjdk@8"
