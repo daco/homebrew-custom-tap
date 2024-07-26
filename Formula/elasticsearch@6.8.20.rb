@@ -15,8 +15,6 @@ class ElasticsearchAT6820 < Formula
     (bin/"elasticsearch-plugin").write_env_script libexec/"bin/elasticsearch-plugin", Language::Java.overridable_java_home_env("1.8")
   end
 
-  plist_options manual: "elasticsearch"
-
   service do
     run [opt_bin/"elasticsearch"]
     keep_alive true
